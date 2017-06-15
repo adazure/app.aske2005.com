@@ -1,0 +1,25 @@
+<Page loaded="loaded" actionBarHidden="true" xmlns="http://schemas.nativescript.org/tns.xsd">
+<StackLayout orientation="vertical">
+    <StackLayout orientation="vertical" id="header">
+        <Image src="~/assets/images/sportclublogo.png" id="logo" />
+    </StackLayout>
+    
+    <StackLayout class="container">
+
+        <StackLayout orientation="vertical" id="userform">
+            <TextField hint="UserName" id="username" class="form" />
+            <TextField hint="Password" secure="true" class="form"  id="password" />
+            <Button text="Login" id="btn" tap="login" />
+            
+            <StackLayout orientation="vertical" id="footer">
+                <Label text="I forget my password"/>
+                <Label text="Create new Account"/>
+            </StackLayout>
+
+        </StackLayout>
+
+        <Label text="Lütfen bekleyiniz..." id="loading" />
+
+    </StackLayout>
+</StackLayout>
+</Page>

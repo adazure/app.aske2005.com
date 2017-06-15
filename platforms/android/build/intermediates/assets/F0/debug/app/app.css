@@ -1,0 +1,16 @@
+﻿
+
+Page{
+    background-color:#333;
+    background-image:url('~/assets/images/background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Oswald-Regular';
+    font-size:20;
+}
+
+.btn {
+    font-size: 18;
+}
+
+@import 'nativescript-theme-core/css/core.light.css';

@@ -1,0 +1,103 @@
+#header{
+    background-color:#9C384D;
+    height:50;
+}
+
+#header label{
+    color:white;
+    font-size:20;
+    width: 100%; text-align: right;
+    padding:10 10 0 0;
+}
+#headerbottom{
+    background-color:#742938;
+    height:50; top:50;
+}
+
+#headerbottom label{
+    color:white;
+    font-size:20;
+}
+#logo-container{
+    background-color:#742938;
+    width:90; height:90;
+    left:20;
+    top:30;
+}
+#logo{
+     left:20;
+     top:20;
+     display: none;
+     border-width:4;
+     border-style:solid;
+     border-color:#742938;
+}
+
+#clubname{
+    margin-left:120;
+}
+
+#hometop{
+    background-image:url('~/assets/images/background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:#dfdfdf;
+    width:100%;
+    top:100;
+    padding-top:20;
+}
+#scroll{
+    top:270;
+    height:100%;
+    width:100%;
+}
+#content{
+    width:100%;
+    background-color:#ddd;
+    background-image:url('~/assets/images/background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.main-item{
+    padding:0 20;
+}
+
+.main-item .main-item-img{
+    height:100;
+    width:100;
+    opacity: .6;
+    margin-right:10;
+}
+
+.main-item .main-item-content{
+    padding:10;
+}
+.main-item .main-item-title{
+    font-size:30;
+    font-weight: bold;
+}
+.main-item .main-item-text{
+    font-size:18;
+}
+
+.top-item{
+    width:33.333%;
+    padding:10 20;
+    background-image:url("~/assets/images/horizontal-line.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+}
+.top-item:last-child{
+    background-image: none;
+}
+
+.top-item Image{
+    width:100%;
+}
+
+.top-item Label{
+    height:100;
+    text-align: center;
+    font-size:18;
+}

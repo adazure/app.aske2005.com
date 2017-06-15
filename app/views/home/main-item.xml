@@ -1,0 +1,8 @@
+<StackLayout orientation="horizontal" class="main-item">
+            <Image src="~/assets/images/aboutus.png" class="main-item-img"/>
+            <StackLayout orientation="vertical" class="main-item-content">
+                <Label text="ABOUT US"  class="main-item-title"/>
+                <Label text="Kulübünüz hakkında insanların okuyacakları bir şeyler ekleyin" textWrap="true" class="main-item-text" />
+            </StackLayout>
+        </StackLayout>
+        <Image src="~/assets/images/line.png" />

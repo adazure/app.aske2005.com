@@ -1,0 +1,20 @@
+.animated {
+        animation-name: animation;
+        animation-duration: .7s;
+        animation-fill-mode: forwards;
+        animation-timing-function:cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animation {
+        0%{
+            opacity:0;
+            transform:translateX(0);
+        }
+        25%{
+            opacity:1;
+            transform:translateX(15);
+        }
+        100%{
+            transform:translateX(0);
+        }
+
+}
