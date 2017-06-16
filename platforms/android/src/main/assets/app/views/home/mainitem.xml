@@ -1,0 +1,7 @@
+<StackLayout orientation="horizontal" class="main-item" loaded="loaded">
+            <Image class="main-item-img" id="image" loadMode="async"/>
+            <StackLayout orientation="vertical" class="main-item-content">
+                <Label class="main-item-title" id="title"/>
+                <Label id="description" textWrap="true" class="main-item-text" />
+            </StackLayout>
+</StackLayout>

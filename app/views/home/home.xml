@@ -1,10 +1,12 @@
-<Page actionBarHidden="true">
+<Page actionBarHidden="true" loaded="loaded"
+xmlns:ui="views/home"
+>
 <AbsoluteLayout>
     <StackLayout height="50" width="100%" id="header">
         <Label text="Welcome to Your Club" />
     </StackLayout>
-    <StackLayout width="100%"id="headerbottom">
-        <Label text="CARDIFF UNIVERSITY KARATE CLUB - BEŞİKTAŞ" textWrap="true" id="clubname" />
+    <StackLayout width="100%" id="headerbottom">
+        <Label text="CARDIFF UNIVERSITY KARATE CLUB - BEŞİKTAŞ" textWrap="true" id="clubname"  />
     </StackLayout>
     <StackLayout id="hometop" orientation="horizontal">
         <StackLayout orientation="vertical" class="top-item">
@@ -15,7 +17,7 @@
             <Image src="~/assets/images/mail.png" />
             <Label text="YOUR MESSAGE (3)" textWrap="true" />
         </StackLayout>
-        <StackLayout orientation="vertical" class="top-item">
+        <StackLayout orientation="vertical" class="top-item last-child">
             <Image src="~/assets/images/mail.png" />
             <Label text="YOUR MESSAGE (3)" textWrap="true" />
         </StackLayout>
@@ -24,10 +26,10 @@
         <Image src="~/assets/images/logo_sc.png" id="logo" />
     </StackLayout>
     <ScrollView id="scroll" orientation="vertical" height="350">
-    <StackLayout id="content">
-        <ListView items="{{items}}">
+    <StackLayout id="content" height="100%">
+        <ListView items="{{items}}" separatorColor="transparent">
             <ListView.itemTemplate>
-                <main-item />
+                <ui:mainitem url="{{url}}" title="{{title}}" description="{{description}}" />
             </ListView.itemTemplate>
         </ListView>
     </StackLayout>
