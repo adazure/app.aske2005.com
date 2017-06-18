@@ -6,16 +6,19 @@
     
     <StackLayout class="container">
 
-        <TextField hint="UserName" id="username" class="form" />
-        <TextField hint="Password" secure="true" class="form"  id="password" />
-        <Button text="Login" id="btn" />
+        <StackLayout orientation="vertical" id="userform">
+            <TextField hint="UserName" id="username" class="form" />
+            <TextField hint="Password" secure="true" class="form"  id="password" />
+            <Button text="Login" id="btn" tap="login" />
+            
+            <StackLayout orientation="vertical" id="footer">
+                <Label text="I forget my password"/>
+                <Label text="Create new Account"/>
+            </StackLayout>
 
-        <StackLayout orientation="vertical" id="footer">
-        
-            <Label text="I forget my password"/>
-            <Label text="Create new Account"/>
-        
         </StackLayout>
+
+        <Label text="Lütfen bekleyiniz..." id="loading" />
 
     </StackLayout>
 </StackLayout>

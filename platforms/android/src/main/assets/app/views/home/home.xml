@@ -9,15 +9,15 @@ xmlns:ui="views/home"
         <Label text="CARDIFF UNIVERSITY KARATE CLUB - BEŞİKTAŞ" textWrap="true" id="clubname"  />
     </StackLayout>
     <StackLayout id="hometop" orientation="horizontal">
-        <StackLayout orientation="vertical" class="top-item">
+        <StackLayout orientation="vertical" class="top-item" id="head1">
             <Image src="~/assets/images/mail.png" />
             <Label text="YOUR MESSAGE (3)" textWrap="true" />
         </StackLayout>
-        <StackLayout orientation="vertical" class="top-item">
+        <StackLayout orientation="vertical" class="top-item" id="head2">
             <Image src="~/assets/images/mail.png" />
             <Label text="YOUR MESSAGE (3)" textWrap="true" />
         </StackLayout>
-        <StackLayout orientation="vertical" class="top-item last-child">
+        <StackLayout orientation="vertical" class="top-item last-child" id="head3">
             <Image src="~/assets/images/mail.png" />
             <Label text="YOUR MESSAGE (3)" textWrap="true" />
         </StackLayout>
@@ -29,7 +29,7 @@ xmlns:ui="views/home"
     <StackLayout id="content" height="100%">
         <ListView items="{{items}}" separatorColor="transparent">
             <ListView.itemTemplate>
-                <ui:mainitem url="{{url}}" title="{{title}}" description="{{description}}" />
+                <ui:mainitem url="{{url}}" title="{{title}}" index="{{id}}" description="{{description}}" />
             </ListView.itemTemplate>
         </ListView>
     </StackLayout>

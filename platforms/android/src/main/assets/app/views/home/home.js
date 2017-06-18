@@ -5,9 +5,9 @@ exports.loaded = function (args) {
 
     args.object.bindingContext = new observable.fromObject({
         items: new array([
-            { url: '~/assets/images/aboutus.png',title:"ABOUT US", description:"Kulübünüz hakkında insanların okuyacağı bir şeyler ekleyin" },
-            { url: '~/assets/images/athlets.png',title:"ATHLETES", description:"Kulübünüzdeki sporcuları buradan ekleyebilirsiniz" },
-            { url: '~/assets/images/photo.png',title:"PHOTO GALLERY", description:"Külübünüzü tanıtan fotoğrafları ekleyebilirsiniz" }
+            {id:0, url: '~/assets/images/aboutus.png',title:"ABOUT US", description:"Kulübünüz hakkında insanların okuyacağı bir şeyler ekleyin" },
+            {id:1, url: '~/assets/images/athlets.png',title:"ATHLETES", description:"Kulübünüzdeki sporcuları buradan ekleyebilirsiniz" },
+            {id:2, url: '~/assets/images/photo.png',title:"PHOTO GALLERY", description:"Külübünüzü tanıtan fotoğrafları ekleyebilirsiniz" }
             
         ])
     });

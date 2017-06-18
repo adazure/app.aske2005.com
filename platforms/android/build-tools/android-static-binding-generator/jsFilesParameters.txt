@@ -1,1 +1,3 @@
 C:\Users\KeremixCO\Desktop\app.aske2005.com\platforms\android\src\main\assets\app\views\login\login.js
+C:\Users\KeremixCO\Desktop\app.aske2005.com\platforms\android\src\main\assets\app\views\home\home.js
+C:\Users\KeremixCO\Desktop\app.aske2005.com\platforms\android\src\main\assets\app\views\home\mainitem.js
